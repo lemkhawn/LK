@@ -1,7 +1,8 @@
 <?php include('header.php') ?>  
        <!-- Content -->
        <h1> LK ne </h1>
-<h2>  LK IS ANGEL<h2>
+<h2>  LK IS ANGEL</h2>
+       <h2> O kia</h2>
         <div class="content">
             <div class="container-fluid">
                 <div class="row">
