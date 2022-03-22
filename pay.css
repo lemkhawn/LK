@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.col-lg-2,
+.col-lg-8 {
+    padding: 0;
+}
+
+header {
+    padding: 10px;
+    background-image: linear-gradient( rgb(131, 7, 7), rgb(251, 111, 111));
+}
+
+header img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    position: relative;
+    border-radius: 5px;
+    height: 30rem;
+}
+
+.content .img-profile {
+    border-radius: 50%;
+    margin-top: -50%;
+    position: relative;
+    border: whitesmoke;
+    padding: 10px;
+    width: 100%;
+}
+
+@media only screen and (max-width:600px) {
+    .content .img-profile {
+        border-radius: 50%;
+        display: flex;
+        background-color: whitesmoke;
+        border: whitesmoke;
+        width: 50%;
+        padding: 0;
+        margin-top: -25%;
+        margin-left: 25%;
+    }
+    .content img {
+        width: 100%;
+        border-radius: 50%;
+        padding: 0;
+    }
+}
+
+.content img {
+    width: 100%;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.nameCenter {
+    margin-top: 5%;
+    font-weight: bold;
+    text-align: center;
+}
+
+i {
+    color: rgb(35, 35, 131);
+    font-size: 20px;
+}
+
+.Donate {
+    text-align: center;
+}
+
+.MOMO button {
+    background-color: #ae2070;
+    border-radius: 20px;
+    padding: -10px;
+    margin: 10px;
+    color: whitesmoke;
+    border: 0;
+    width: 20rem;
+}
+
+.MOMO img {
+    width: 4rem;
+    padding: 0;
+}
+
+.VIB button {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: -10px;
+    margin: 10px;
+    color: whitesmoke;
+    border: 0;
+    width: 20rem;
+}
+
+.VIB img {
+    width: 4rem;
+    padding: 0;
+}
+
+
+/* Dialog */
+
+
+/* Dialog */
+
+.dialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity linear 0.3s;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.431);
+}
+
+.dialog-body {
+    max-width: 700px;
+    position: relative;
+    padding: 16px;
+    background-color: #1a3170;
+    color: #feffff;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.dialog:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.dialog-close-btn {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.dialog button {
+    margin-top: 20px;
+    margin-left: 0;
+    float: center;
+    font-size: 20px;
+    border: none;
+    width: 100%;
+    padding: 5px;
+    border-radius: 30px;
+    color: #fbead7;
+    font-family: 'Pacifico', cursive;
+}
+
+.dialog a {
+    color: #feffff;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    margin-top: 50px;
+    text-align: center;
+    color: whitesmoke;
+    position: sticky;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: whitesmoke;
+    padding-bottom: 5px;
+}
+
+footer i {
+    font-size: 25px;
+    padding-right: 10px;
+    color: whitesmoke;
+}
+
+button:hover {
+    transition: 1.0s;
+    width: 25rem;
+    transform: translateY(20px);
+}
+
+a:hover {
+    color: red;
+    transition: 0.5s;
+    transform: translateY(20px);
+}
